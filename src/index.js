@@ -1,0 +1,12 @@
+import moongoose from "moongoose";
+import {DB_NAME} from "./constants.js"
+import express from "express";
+    
+import connectDB from "./db/index.js";
+import dotenv from "dotenv";
+dotenv.config({
+    path:"./env"
+});
+
+connectDB();
+
