@@ -21,4 +21,4 @@ import fs from 'fs';
         }
     }
 }());
-export { cloudinary };
+export { cloudinary, uploadToCloudinary };
